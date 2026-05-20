@@ -1,0 +1,10 @@
+This is rlhf-from-scratch — a comparative study of post-training methods
+(SFT, DPO, PPO, GRPO) at the 0.5B-1.5B scale.
+
+- Use PyTorch and Hugging Face TRL for training.
+- Prefer uv for package management.
+- All training runs should log to W&B under project "rlhf-from-scratch".
+- Models default to Qwen2.5-0.5B unless specified.
+- Maintain consistent base model and eval harness across experiments —
+  comparisons must be apples-to-apples.
+- Comments explain *why*, not *what*.
