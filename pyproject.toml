@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "accelerate>=1.13.0",
     "datasets>=4.8.5",
+    "modal>=1.4.3",
     "peft>=0.19.1",
     "tensorboard>=2.20.0",
     "torch>=2.12.0",
