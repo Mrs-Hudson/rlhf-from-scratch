@@ -8,3 +8,7 @@ wandb/
 *.egg-info/
 .pytest_cache/
 rm-final/
+
+# PPO artifacts (large, on Modal volume)
+ppo-checkpoint-*/
+ppo-final/
