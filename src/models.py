@@ -7,7 +7,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # The base model used across all experiments. Override per-script if needed.
-DEFAULT_BASE = "Qwen/Qwen2.5-0.5B-Instruct"
+DEFAULT_BASE = "allenai/OLMo-2-1124-1B-SFT"
 DEFAULT_BASE_NO_SFT = "Qwen/Qwen2.5-0.5B"  # base, not instruct — for SFT experiments
 
 
